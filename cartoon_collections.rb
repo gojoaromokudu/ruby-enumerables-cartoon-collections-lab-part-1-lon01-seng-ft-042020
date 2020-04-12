@@ -8,7 +8,7 @@ end
 
 def list_dwarves(array)
   array.each_index do |element, index|
-   puts "#{index + 1}. #{element}"
+   puts "#{index}. #{element}"
   end
   binding.pry
 end
